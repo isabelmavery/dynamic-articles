@@ -4,12 +4,13 @@ Hello! I'm Isabel - I had a lot of fun working on this project for you guys! If 
 
 ## Getting the project running
 
-Open two terminals, one for the server and one for the client. `cd` into each folder.
+Clone this repo and then open two terminals, one for the server and one for the client. `cd` into each folder.
 
 ### For the Server:
 
 ```
 cd server
+yarn
 yarn start
 ```
 
@@ -20,6 +21,7 @@ Runs the server on
 
 ```
 cd client
+yarn
 yarn start
 ```
 
