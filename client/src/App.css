@@ -1,0 +1,12 @@
+.App {
+  font-family: "Source Serif Pro";
+}
+
+.block {
+  min-height: 150px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+

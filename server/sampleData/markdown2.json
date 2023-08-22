@@ -1,0 +1,7 @@
+{
+    "Type": "Markdown",
+    "Object": {
+        "Text": "### Heading 3\nThis is a **markdown** text with some ~strikethrough~ text.\nAs well as a list of items:\n- Task list 1\n- Task list  2\n- Task list 3\n- Task list 4"
+    }
+ }
+ 
