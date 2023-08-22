@@ -7,8 +7,8 @@ const FEEDBACK_INCORRECT_PREFIX = 'Incorrect - '
 const FEEDBACK_CORRECT_TEXT = 'Correct - Nice work!'
 
 /**
- * Adds to correct option into the options array at a random location
- * So the correct option is not always in the same place.
+ * Adds correct option into the options array at a random location
+ * s.t. the correct option is not always in the same place.
  */
 function shuffleCorrectOption(
   IncorrectOptions: string[],

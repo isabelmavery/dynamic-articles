@@ -34,7 +34,6 @@ Open here to view the app in the browser. You can check network requests to be s
 If you are having any issues running the application, you can:
 
 - clear node_modules and re-run `yarn` in the malfunctioning folder
-- verify that you have `node` installed `node -v`
 
 ## Recap of Some Decisions Made
 
@@ -64,6 +63,7 @@ If I were to go back and start this project over I would probably build off of a
 - More of a focus on accessibility, general accessibility is here but there are missing aria labels / more I could do a dive on.
 - Potentially use a library like MUI for nice standardized components like text input, buttons and more as we add functionality / spend more time on design & UI in general
 - Use styled components or scss for cleaner css
+- Add some unit tests
 
 ## More Add Ons that would be fun:
 
