@@ -4,4 +4,13 @@
     margin: 20px 0px;
     width: 100%;
     min-height: 80px;
+    color: #41314e;
+    line-height: 1.6em;
+    background: #f8f7fa;
+    border: 1px solid #f1f1f4;
+}
+
+.edit-button {
+    font-family: "Source Serif Pro";
+    width: 60px;
 }

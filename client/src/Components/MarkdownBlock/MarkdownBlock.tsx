@@ -21,6 +21,7 @@ export default function MarkdownBlock(props: { block: RawBlock }) {
         }}
       >
         <button
+          className="edit-button primary"
           onClick={() => {
             setIsEditMode(!isEditMode)
             isEditMode && saveBlockEdit(block, text)

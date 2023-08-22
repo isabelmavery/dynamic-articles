@@ -86,7 +86,7 @@ export default function MCQBlock(props: {
             onClick={() => setSelectedOption(o)}
           />
         ))}
-        <input className="submit-button" type="submit" value="Submit" />
+        <input className="submit-button primary" type="submit" value="Submit" />
       </form>
     </div>
   )

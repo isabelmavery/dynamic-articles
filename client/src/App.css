@@ -1,5 +1,7 @@
 .App {
   font-family: "Source Serif Pro";
+  --primary-button-light: #f8f7fa;
+  --primary-button-dark: #41314e;
 }
 
 .block {
@@ -10,3 +12,20 @@
   border-radius: 10px;
 }
 
+.primary {
+  line-height: 1.6em;
+  color: var(--primary-button-dark);
+  background: var(--primary-button-light);
+  border: 1px solid  #e2e2e2;
+  border-radius: 8px;
+}
+
+.primary:hover {
+  background-color: var(--primary-button-dark);
+  color: var(--primary-button-light);
+  border: 1px solid var(--primary-button-light);
+}
+
+.primary:active {
+  background-color: #54455f;
+}
