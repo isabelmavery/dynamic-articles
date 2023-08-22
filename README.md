@@ -53,15 +53,16 @@ If I were to go back and start this project over I would probably build off of a
 ## What I implemented:
 
 - A basic API that returns the blocks that make up an article
-- A UI for Markdown blocks, and a UI for quiz blocks with some validation for correct / incorrect answers on submission.
+- A UI for Markdown blocks, and a UI for quiz blocks with some validation for correct / incorrect answers on submission. Shuffles options around for each question so correct is not always last.
 - An "Edit" option for the markdown blocks, where a user can change the existing markdown text. Mock~ish PUT api to update the blocks on edit.
 
-## Adjustments to this project that I would do with more time:
+<img width="500" alt="image" src="https://github.com/isabelmavery/dynamic-articles/assets/22804094/e6949e94-d98b-4b0b-acd5-c8d58d6397c6">
+
+## Some adjustments to this project that I would do with more time:
 
 - Add nicer UI validation when the user submits their quiz rather than using the alert modal.
-- Shuffle the options in the MCQ so the correct option is not always last.
 - More of a focus on accessibility, general accessibility is here but there are missing aria labels / more I could do a dive on.
-- Potentially use a library like MUI for nice standardized components like text input, buttons and more as we add functionality
+- Potentially use a library like MUI for nice standardized components like text input, buttons and more as we add functionality / spend more time on design & UI in general
 
 ## More Add Ons that would be fun:
 
