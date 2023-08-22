@@ -56,8 +56,7 @@ If I were to go back and start this project over I would probably build off of a
 - A UI for Markdown blocks, and a UI for quiz blocks with some validation for correct / incorrect answers on submission. Shuffles options around for each question so correct is not always last.
 - An "Edit" option for the markdown blocks, where a user can change the existing markdown text. Mock~ish PUT api to update the blocks on edit.
 
-<img width="500" alt="image" src="https://github.com/isabelmavery/dynamic-articles/assets/22804094/a8832dd9-f3be-4c81-a3ec-dbae8f21fa43">
-
+<img width="500" alt="image" src="https://github.com/isabelmavery/dynamic-articles/assets/22804094/e6cb9efe-1bc4-4c10-8100-98be399b1ab5">
 
 ## Some adjustments to this project that I would do with more time:
 
