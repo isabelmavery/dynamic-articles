@@ -21,8 +21,7 @@ app.put('/blocks/:blockId', (req: Request, res: Response) => {
 
   /**
    * Note: this will not really save the changes on the server as we are not editing the
-   * "db" / json files directly. This is just a mimick for the purpose of this demo.
-   * IRL we would write changes to our DB.
+   * "db" / json files directly. IRL we would write changes to our DB.
    */
   const updatedResponse = sampleResponse.map((b) =>
     b.BlockId === blockIdToUpdate ? newBlock : b

@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { RawBlock } from '../../types/block.types'
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 import remarkGfm from 'remark-gfm'
-import './MarkdownBlock.css'
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown'
 import { saveBlockEdit } from '../../api/saveBlockEdit'
+import { RawBlock } from '../../types/block.types'
+import './MarkdownBlock.css'
 
 export default function MarkdownBlock(props: { block: RawBlock }) {
   const { block } = props

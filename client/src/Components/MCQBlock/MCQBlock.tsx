@@ -33,11 +33,9 @@ function Option({
   quizName: string
 }) {
   return (
-    <div className="quiz-q" style={{ marginBottom: 10 }} onClick={onClick}>
+    <div className="quiz-option" onClick={onClick}>
       <input type="radio" id={optionName} value={optionName} name={quizName} />
-      <label htmlFor={optionName} style={{ marginLeft: 5 }}>
-        {optionName}
-      </label>
+      <label htmlFor={optionName}>{optionName}</label>
     </div>
   )
 }
@@ -78,12 +76,9 @@ export default function MCQBlock(props: {
 
   return (
     <div className="block quiz">
-      <div className="title" style={{ marginBottom: 10 }}>
-        Quick Quiz
-      </div>
+      <div className="title">Quick Quiz</div>
       <form name={quizName} onSubmit={handleSubmit}>
-        <div style={{ marginBottom: 10 }}>{Question}</div>
-
+        <div className="quiz-question">{Question}</div>
         {allOptions.map((o: string) => (
           <Option
             quizName={quizName}
@@ -91,12 +86,7 @@ export default function MCQBlock(props: {
             onClick={() => setSelectedOption(o)}
           />
         ))}
-
-        <input
-          type="submit"
-          value="Submit"
-          style={{ width: 100, marginTop: 5 }}
-        />
+        <input className="submit-button" type="submit" value="Submit" />
       </form>
     </div>
   )

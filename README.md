@@ -63,6 +63,7 @@ If I were to go back and start this project over I would probably build off of a
 - Add nicer UI validation when the user submits their quiz rather than using the alert modal.
 - More of a focus on accessibility, general accessibility is here but there are missing aria labels / more I could do a dive on.
 - Potentially use a library like MUI for nice standardized components like text input, buttons and more as we add functionality / spend more time on design & UI in general
+- Use styled components or scss for cleaner css
 
 ## More Add Ons that would be fun:
 
