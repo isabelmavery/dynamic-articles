@@ -1,6 +1,6 @@
 # Welcome!
 
-Hello! I'm Isabel - I had a lot of fun working on this project for you guys! If you have any questions while going through the project, or have any issues running it feel free to send me a message at [isabelmavery@gmail.com](mailto:isabelmavery@gmail.com)
+Hello! I'm Isabel - I had a lot of fun working on this project! If you have any questions or have any issues running it feel free to send me a message at [isabelmavery@gmail.com](mailto:isabelmavery@gmail.com)
 
 ## Getting the project running
 
