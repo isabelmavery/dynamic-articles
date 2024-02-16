@@ -1,6 +1,10 @@
 # Welcome!
 
-Hello! I'm Isabel - I had a lot of fun working on this project! If you have any questions or have any issues running it feel free to send me a message at [isabelmavery@gmail.com](mailto:isabelmavery@gmail.com)
+Hello! I'm Isabel - this is a small project that I worked on to build out some dynamic articles that can be edited with markdown, and support quiz questions with validation. In the future it could be expanded to be prettier and have more functionality, but this was a fun start!
+
+![DynamicArticles_Shortened-ezgif com-video-to-gif-converter](https://github.com/isabelmavery/dynamic-articles/assets/22804094/95c56ada-30b4-4176-840b-b467e220967e)
+
+
 
 ## Getting the project running
 
@@ -43,13 +47,9 @@ If you are having any issues running the application, you can:
 - good documentation
 - very simple implementation and ready in seconds
 
-If I were to go back and start this project over I would probably build off of an existing editor like Sourabh mentioned! I didn't realize I could until halfway through the project and at that point felt it wouldn't make sense to overhall but in the real world that would be best.
+If I were to go back and start this project over I would probably build off of an existing editor!
 
-### Using `express`
-
-- Simple and familiar to use for a small take home project
-
-## What I implemented:
+## What is here:
 
 - A basic API that returns the blocks that make up an article
 - A UI for Markdown blocks, and a UI for quiz blocks with some validation for correct / incorrect answers on submission. Shuffles options around for each question so correct is not always last.
@@ -57,18 +57,9 @@ If I were to go back and start this project over I would probably build off of a
 
 <img width="500" alt="image" src="https://github.com/isabelmavery/dynamic-articles/assets/22804094/e6cb9efe-1bc4-4c10-8100-98be399b1ab5">
 
-## Some adjustments to this project that I would do with more time:
+## Some things at I would like to add to this project:
 
-- Add nicer UI validation when the user submits their quiz rather than using the alert modal.
-- More of a focus on accessibility, general accessibility is here but there are missing aria labels / more I could do a dive on.
-- Potentially use a library like MUI for nice standardized components like text input, buttons and more as we add functionality / spend more time on design & UI in general
-- Use styled components or scss for cleaner css
-- Add some unit tests
-
-## More Add Ons that would be fun:
-
-- Adding functionality to build up graphs and models from some server response as you can see in https://cs231n.github.io/optimization-1/
-- Making sure that media is supported - images, videos etc.
-- Ability to add comments (as suggested in the doc)
-- Integrate error logging
-- Hook up to DB or edit json files s.t. changes to markdown are permanently saved.
+- [ ] Nicer UI validation, integrate with MUI
+- [ ] Use styled components or scss for cleaner css
+- [ ] Support other card types like graphs
+- [ ] Hook up to DB
